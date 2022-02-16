@@ -3,3 +3,4 @@
 
 npx jira-prepare-commit-msg 
 npx jira-prepare-commit-msg 
+npx jira-prepare-commit-msg BC
