@@ -24,8 +24,7 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "jira-smart-commit YOUR_JIRA_ISSUE_KEY",
-      "pre-commit": "lint-staged"
+      "commit-msg": "TAG_MATCHER=\"^[^/]+/(BC-[0-9]+)\" TAG_MATCH_INDEX=1 jira-smart-commit"
     }
   }
 }
