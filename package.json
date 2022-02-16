@@ -36,7 +36,7 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "TAG_MATCHER=\"^[^/]+/(JRA-[0-9]+)\" TAG_MATCH_INDEX=1 jira-smart-commit"
+      "commit-msg": "TAG_MATCHER=\"^[^/]+/(BC-[0-9]+)\" TAG_MATCH_INDEX=1 jira-smart-commit"
     }
   }
 }
