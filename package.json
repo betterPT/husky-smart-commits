@@ -18,7 +18,14 @@
     "@nrwl/workspace": "13.8.1",
     "@types/node": "16.11.7",
     "husky": "^7.0.4",
+    "jira-smart-commit": "^1.1.2",
     "prettier": "^2.5.1",
     "typescript": "~4.5.2"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "jira-smart-commit YOUR_JIRA_ISSUE_KEY",
+      "pre-commit": "lint-staged"
+    }
   }
 }

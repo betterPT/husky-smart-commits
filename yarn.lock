@@ -2108,6 +2108,11 @@ jira-prepare-commit-msg@^1.6.2:
   dependencies:
     cosmiconfig "^7.0.1"
 
+jira-smart-commit@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/jira-smart-commit/-/jira-smart-commit-1.1.2.tgz#f913b4f5a814005f5cf91f6a4679948ae716b8e6"
+  integrity sha512-brDZtvgk/WI/PYV72MbovCvTIzQnSGxaKzUZp9I58H6ENg6tTz1d7fDw6lmDMRDO6S86d5xu8v7a1FkRWzjzTw==
+
 js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
