@@ -9,7 +9,6 @@
   },
   "private": true,
   "dependencies": {
-    "jira-prepare-commit-msg": "^1.6.2",
     "node": "17.4.0"
   },
   "devDependencies": {
@@ -18,14 +17,11 @@
     "@nrwl/workspace": "13.8.1",
     "@types/node": "16.11.7",
     "husky": "^7.0.4",
-    "jira-smart-commit": "^1.1.2",
     "prettier": "^2.5.1",
     "typescript": "~4.5.2"
   },
   "husky": {
     "hooks": {
-      "prepare-commit-msg": "jira-prepare-commit-msg $1",
-      "commit-msg": "TAG_MATCHER=\"^[^/]+/(BC-[0-9]+)\" TAG_MATCH_INDEX=1 jira-smart-commit"
     }
   }
 }
