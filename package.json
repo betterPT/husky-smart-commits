@@ -9,7 +9,6 @@
   },
   "private": true,
   "dependencies": {
-    "jira-prepare-commit-msg": "^1.6.2",
     "node": "17.4.0"
   },
   "devDependencies": {
@@ -17,7 +16,6 @@
     "@nrwl/tao": "13.8.1",
     "@nrwl/workspace": "13.8.1",
     "@types/node": "16.11.7",
-    "husky": "^7.0.4",
     "prettier": "^2.5.1",
     "typescript": "~4.5.2"
   }
