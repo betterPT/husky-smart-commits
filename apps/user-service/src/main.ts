@@ -1,6 +1,6 @@
 const start = async () => {
   setTimeout(async () => {
-    console.log('Hello aaaaaWorld!!!!sssss!!ddd');
+    console.log('Hello aaaassssaWorld!!!!sssss!!ddd');
     await Promise.resolve('foo');
   }, 5000);
 };
